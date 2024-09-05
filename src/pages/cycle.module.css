@@ -1,0 +1,27 @@
+.container {
+  padding: 1.5rem;
+}
+
+.productsContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.productsItem {
+  border: 1px solid gray;
+  padding: 0.5rem;
+}
+
+.productsItemCover {
+  display: block;
+  width: 100%;
+  height: 10rem;
+  object-fit: contain;
+}
+
+.paginationContainer {
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
